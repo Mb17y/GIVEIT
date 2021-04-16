@@ -1,11 +1,11 @@
-;div {
+div {
     position: absolute;
 }
 
 body {
     height: 10000px;
     width:10000px;
-    background: red;
+    background: rgb(26, 26, 26);
     font-family: Arial, Helvetica, sans-serif;
 }
 
