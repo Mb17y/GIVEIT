@@ -101,3 +101,7 @@ function sended() {
     clearInterval(interval)
     timer();
 }  
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    document.write("HAAHFHEVFDNVKSDJSKADKSLAHFJKSAJLÖDKSALFHSJKAJDÖLSKAFJSHAKLDKSAlöfjSAJHKLFSKAÖLFLKSAHKSAJDLÖSAKFKHSAHFKSAKÖLDKSAKJFSAKLDÖKSAÖLJFLA");
+}
