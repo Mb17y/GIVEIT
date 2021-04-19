@@ -77,7 +77,7 @@ function buttonclick(id) {
         div.append(submit);  
         div.append(button);  
         
-        if (/Android|Windows|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
             div.setAttribute("style","width:90%");
         }
     }
