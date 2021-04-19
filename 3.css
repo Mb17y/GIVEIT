@@ -30,7 +30,7 @@ body {
 }
 
 .cell-employees {
-    height:20px;
+    height:auto;
     position: sticky;
     background: hsla(180, 83%, 26%);
     left: 5px;
