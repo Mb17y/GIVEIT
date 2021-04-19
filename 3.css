@@ -4,8 +4,8 @@ div {
 
 body {
     height: 10000px;
-    width:10000px;
-    background: rgb(26, 26, 26);
+    /*width:10000px;*/
+    background: #040d15;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .cell-employees {
-    height:auto;
+    height:20px;
     position: sticky;
     background: hsla(180, 83%, 26%);
     left: 5px;
@@ -41,10 +41,11 @@ body {
     padding: 10px;
     width: 50%;
     height: 80%;
-    background-color: rgb(106, 126, 126);
+    background-color: #031320;
     position: fixed;
     top: 50%;
     left: 50%;
+    color:rgb(243, 243, 243);
     transform: translate(-50%, -50%);
     border-radius: 10px;
 }
@@ -118,6 +119,7 @@ body {
     font-size: 18px;
     transform: translate(-50%, 0%);
     border: 0px;
+    resize: none;
 }
 
 #button {
