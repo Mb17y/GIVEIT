@@ -15,7 +15,8 @@ function closeButtonClick() { // schließt das Popup
     $('.closeButton').hide();
     $(".submitButton").hide();
 }
-let test = [{text: "Nice"}]
+//let test = [{text: "Nice"}];
+
 function buttonclick(id) {
     if (field_opened === false) { 
         field_opened = true;
@@ -29,7 +30,8 @@ function buttonclick(id) {
         div.className = "textfeld";
         div.innerText = data.title + "\n" + data.description + "\n" + data.date;
         document.body.append(div); 
-            
+        console.log(div, textfeld)
+
         let button = document.createElement('button'); // erstellt den schließ-button
         button.className = "closeButton";
         button.innerText = "Abbrechen";
@@ -63,20 +65,20 @@ function buttonclick(id) {
         }
         submit.className = "submitButton";
         submit.innerText = "Abschicken"
-            
+        
         let input_email = document.createElement('input'); // erstellt den input-button
         input_email.className = "inputField_email";
         input_email.placeholder = "email";
-            
+        
         let input_message = document.createElement('textarea');
         input_message.className = "inputField_message";
         input_message.placeholder = "Nachricht";
-            
-        div.appendChild(input_message);
+        
         div.appendChild(input_email);
+        div.appendChild(input_message);
         div.append(submit);  
         div.append(button);  
-        
+
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
             div.setAttribute("style","width:90%");
         }
@@ -104,4 +106,4 @@ function sended() {
     $(".input_error").hide();
     clearInterval(interval)
     timer();
-} 
+}
