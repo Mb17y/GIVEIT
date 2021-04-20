@@ -1,5 +1,8 @@
 raster = 1; //erstellt eine globale Variable die die ID der Raster angibt
 zeile = 1; //erstellt eine globale Variable die die ID der Zeilen angibt
+let KW = 10;
+let zeilen = 10;
+createBorder(KW, zeilen);
 
 function createBorder(KW, zeilen) { //erstellt eine sichtbare Wand
     document.write ("<table class = 'border_raster' id = 'raster' border = '1'>");
