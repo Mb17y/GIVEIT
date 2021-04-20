@@ -26,10 +26,6 @@ body {
     border-collapse: collapse;
 }
 
-#employee_name_ {
-    background: red;
-}
-
 .cell-employees {
     height:20px;
     position: sticky;
