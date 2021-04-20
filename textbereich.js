@@ -1,6 +1,6 @@
 raster = 1; //erstellt eine globale Variable die die ID der Raster angibt
 zeile = 1; //erstellt eine globale Variable die die ID der Zeilen angibt
-let KW = 10;
+let KW = 50;
 let zeilen = 10;
 
 createBorder(KW, zeilen);
