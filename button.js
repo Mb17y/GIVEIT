@@ -39,6 +39,8 @@ function buttonclick(id) {
             field_opened = false;
             closeButtonClick(); 
             div.remove();
+            clearInterval(interval);
+            timeout_check = false;
         } 
             
         let submit = document.createElement('button'); // erstellt den submit-button
