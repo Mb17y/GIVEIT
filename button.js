@@ -30,7 +30,6 @@ function buttonclick(id) {
         div.className = "textfeld";
         div.innerText = data.title + "\n" + data.description + "\n" + data.date;
         document.body.append(div); 
-        console.log(div, textfeld)
 
         let button = document.createElement('button'); // erstellt den schließ-button
         button.className = "closeButton";
