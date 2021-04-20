@@ -1,10 +1,11 @@
 raster = 1; //erstellt eine globale Variable die die ID der Raster angibt
 zeile = 1; //erstellt eine globale Variable die die ID der Zeilen angibt
-
+console.log("wird erstellt");
 let KW = 10;
 let zeilen = 10;
 
 createBorder(KW, zeilen);
+console.log("wird jetzt ausgeführt");
 
 function createBorder(KW, zeilen) { //erstellt eine sichtbare Wand
     console.log("createBorder");
