@@ -7,12 +7,14 @@ let zeilen = 10;
 createBorder(KW, zeilen);
 
 function createBorder(KW, zeilen) { //erstellt eine sichtbare Wand
+    console.log("createBorder");
     document.write ("<table class = 'border_raster' id = 'raster' border = '1'>");
     createKW(KW, zeilen);
     document.write ("</table>")
 }
 
 function createKW(KW, zeilen) { //erstellt die KalenderWochen-Raster
+    console.log("createKW");
     // erstellt die erste Zelle die frei ist
     document.write("<td class = 'KW_raster-free'></br></td>"); 
     let KW_d = 1; // variable zum hochzählen der KalenderWochen
@@ -25,6 +27,7 @@ function createKW(KW, zeilen) { //erstellt die KalenderWochen-Raster
 }
 
 function createRow_KW(KW, zeilen) { //erstellt bei jedem neuen Aufruf eine neue Reihe
+    console.log("createRow_KW");
     for (x = 0; x < zeilen; x++)
     { 
         document.write("<tr class = 'newLine'>");
@@ -35,6 +38,7 @@ function createRow_KW(KW, zeilen) { //erstellt bei jedem neuen Aufruf eine neue 
 }
 
 function createCell_KW(KW) { 
+    console.log("createCell_KW");
     // erstellt für jede neue Reihe eine Zelle für die Mitarbeiter
     document.write("<td class = 'cell-employees' id = 'employee_name_",zeile,"'>Mitarbeiter</td>"); 
     for(y= 0; y < KW; y++) 
