@@ -25,15 +25,11 @@ body {
     border-collapse: collapse;
 }
 
-#employee_name_ {
-    background: red;
-}
-
 .cell-employees {
     height:20px;
     position: sticky;
     background: hsla(180, 83%, 26%);
-    left: 5px;
+    left: 2px;
     z-index: 1;
 }
 
