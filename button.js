@@ -62,7 +62,7 @@ function buttonclick(id) {
             }
         }
         submit.className = "submitButton";
-        submit.innerText = "abschicken"
+        submit.innerText = "Abschicken"
             
         let input_email = document.createElement('input'); // erstellt den input-button
         input_email.className = "inputField_email";
