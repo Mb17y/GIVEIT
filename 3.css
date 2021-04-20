@@ -17,7 +17,7 @@ body {
 }
 
 .KW_raster-free {   
-    background: rgb(26, 26, 26);
+    background: #040d15;
 }
 
 #raster {
@@ -48,6 +48,7 @@ body {
     color:white;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+    z-index: 3;
 }
 
 #textfeld-inhalt {
